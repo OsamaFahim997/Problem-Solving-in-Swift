@@ -14,8 +14,7 @@
 		F1CB3E1B2C0F1F9B003B900F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CB3E1A2C0F1F9B003B900F /* Assets.xcassets */; };
 		F1CB3E1E2C0F1F9B003B900F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CB3E1C2C0F1F9B003B900F /* LaunchScreen.storyboard */; };
 		F1CB3E292C0F1F9B003B900F /* Problem_Solving_in_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB3E282C0F1F9B003B900F /* Problem_Solving_in_SwiftTests.swift */; };
-		F1CB3E332C0F1F9B003B900F /* Problem_Solving_in_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB3E322C0F1F9B003B900F /* Problem_Solving_in_SwiftUITests.swift */; };
-		F1CB3E352C0F1F9B003B900F /* Problem_Solving_in_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB3E342C0F1F9B003B900F /* Problem_Solving_in_SwiftUITestsLaunchTests.swift */; };
+		F1CB3E442C0F2025003B900F /* 1. Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB3E432C0F2025003B900F /* 1. Two Sum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +46,7 @@
 		F1CB3E242C0F1F9B003B900F /* Problem Solving in SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Problem Solving in SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CB3E282C0F1F9B003B900F /* Problem_Solving_in_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_Solving_in_SwiftTests.swift; sourceTree = "<group>"; };
 		F1CB3E2E2C0F1F9B003B900F /* Problem Solving in SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Problem Solving in SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1CB3E322C0F1F9B003B900F /* Problem_Solving_in_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_Solving_in_SwiftUITests.swift; sourceTree = "<group>"; };
-		F1CB3E342C0F1F9B003B900F /* Problem_Solving_in_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_Solving_in_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1CB3E432C0F2025003B900F /* 1. Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. Two Sum.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 			children = (
 				F1CB3E102C0F1F99003B900F /* Problem Solving in Swift */,
 				F1CB3E272C0F1F9B003B900F /* Problem Solving in SwiftTests */,
-				F1CB3E312C0F1F9B003B900F /* Problem Solving in SwiftUITests */,
 				F1CB3E0F2C0F1F99003B900F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,12 +96,8 @@
 		F1CB3E102C0F1F99003B900F /* Problem Solving in Swift */ = {
 			isa = PBXGroup;
 			children = (
-				F1CB3E112C0F1F99003B900F /* AppDelegate.swift */,
-				F1CB3E132C0F1F99003B900F /* SceneDelegate.swift */,
-				F1CB3E152C0F1F99003B900F /* ViewController.swift */,
-				F1CB3E172C0F1F99003B900F /* Main.storyboard */,
-				F1CB3E1A2C0F1F9B003B900F /* Assets.xcassets */,
-				F1CB3E1C2C0F1F9B003B900F /* LaunchScreen.storyboard */,
+				F1CB3E422C0F1FD4003B900F /* Arrays */,
+				F1CB3E412C0F1FAE003B900F /* Other */,
 				F1CB3E1F2C0F1F9B003B900F /* Info.plist */,
 			);
 			path = "Problem Solving in Swift";
@@ -118,13 +111,25 @@
 			path = "Problem Solving in SwiftTests";
 			sourceTree = "<group>";
 		};
-		F1CB3E312C0F1F9B003B900F /* Problem Solving in SwiftUITests */ = {
+		F1CB3E412C0F1FAE003B900F /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				F1CB3E322C0F1F9B003B900F /* Problem_Solving_in_SwiftUITests.swift */,
-				F1CB3E342C0F1F9B003B900F /* Problem_Solving_in_SwiftUITestsLaunchTests.swift */,
+				F1CB3E112C0F1F99003B900F /* AppDelegate.swift */,
+				F1CB3E132C0F1F99003B900F /* SceneDelegate.swift */,
+				F1CB3E152C0F1F99003B900F /* ViewController.swift */,
+				F1CB3E172C0F1F99003B900F /* Main.storyboard */,
+				F1CB3E1A2C0F1F9B003B900F /* Assets.xcassets */,
+				F1CB3E1C2C0F1F9B003B900F /* LaunchScreen.storyboard */,
 			);
-			path = "Problem Solving in SwiftUITests";
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F1CB3E422C0F1FD4003B900F /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				F1CB3E432C0F2025003B900F /* 1. Two Sum.swift */,
+			);
+			path = Arrays;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1CB3E162C0F1F99003B900F /* ViewController.swift in Sources */,
+				F1CB3E442C0F2025003B900F /* 1. Two Sum.swift in Sources */,
 				F1CB3E122C0F1F99003B900F /* AppDelegate.swift in Sources */,
 				F1CB3E142C0F1F99003B900F /* SceneDelegate.swift in Sources */,
 			);
@@ -276,8 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1CB3E352C0F1F9B003B900F /* Problem_Solving_in_SwiftUITestsLaunchTests.swift in Sources */,
-				F1CB3E332C0F1F9B003B900F /* Problem_Solving_in_SwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
